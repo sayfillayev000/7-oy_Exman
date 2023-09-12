@@ -1,0 +1,165 @@
+.main__card {
+  padding-top: 80px;
+}
+.info__card {
+  display: flex;
+  justify-content: space-around;
+  .main__info {
+    .main__title {
+      color: var(--title-color, #01384d);
+      text-align: center;
+      font-family: Raleway;
+      font-size: 120px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    .main__subtitle {
+      color: var(--title-color, #01384d);
+      text-align: center;
+      font-family: Raleway;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}
+.line{
+  width: 100%;
+    border:  2px solid #01384D;
+}
+.product__title {
+  color: var(--title-color, #01384d);
+  font-family: Raleway;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 77px;
+}
+.product__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  .product__category {
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #000;
+    padding: 13px 32px;
+  }
+  .product__category.active {
+    width: 131px;
+    height: 45px;
+    border-radius: 5px;
+    background: rgba(#01384d, 0.1);
+  }
+}
+.product__card {
+  width: 1280px;
+//   height: 456px;
+  border: 1px solid #c7dff5;
+  background: #f6fbff;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 54px;
+
+  .praduct__img {
+    margin: 122px 100px 121px 40px;
+  }
+}
+.product__info {
+  padding: 30px 40px 30px 0;
+  width: 636px;
+  .product__name {
+    color: var(--title-color, #01384d);
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 33px;
+  }
+  .product__item {
+    display: flex;
+    justify-content: space-between;
+
+    .product__box {
+      .product__kg {
+        color: var(--title-color, #01384d);
+        font-family: Raleway;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        opacity: 0.6;
+        display: block;
+        margin-bottom: 7px;
+      }
+      strong {
+        color: var(--title-color, #01384d);
+        font-family: Raleway;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        span {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .product__pragraph {
+    color: var(--title-color, #01384d);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    opacity: 0.6;
+    margin: 20px 0 25px 0;
+  }
+  .product__sena {
+    color: var(--title-color, #01384d);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6;
+  }
+  .product__narx {
+    color: var(--title-color, #01384d);
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: block;
+    span {
+      font-size: 16px;
+    }
+  }
+  .product__button {
+    width: 200px;
+    height: 46px;
+    border-radius: 5px;
+    border: 2px solid var(--title-color, #01384d);
+    background: #fff;
+    color: var(--title-color, #01384d);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    gap: 15px;
+    margin-top: 25px;
+  }
+}
