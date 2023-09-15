@@ -1,5 +1,6 @@
 .main__card {
   padding-top: 80px;
+  padding-bottom: 90px;
 }
 .info__card {
   display: flex;
@@ -25,9 +26,9 @@
     }
   }
 }
-.line{
+.line {
   width: 100%;
-    border:  2px solid #01384D;
+  border: 2px solid #01384d;
 }
 .product__title {
   color: var(--title-color, #01384d);
@@ -63,16 +64,32 @@
 }
 .product__card {
   width: 1280px;
-//   height: 456px;
+  //   height: 456px;
   border: 1px solid #c7dff5;
   background: #f6fbff;
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
   margin-top: 54px;
-
-  .praduct__img {
-    margin: 122px 100px 121px 40px;
+  .img__btn {
+    padding: 20px 0 0 30px;
+    .praduct__img {
+      margin: 122px 100px 121px 40px;
+    }
+    .yangi__malsulot__btn {
+      color: #fff;
+      text-align: center;
+      font-family: Raleway;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: uppercase;
+      padding: 10px 30px;
+      border-radius: 5px;
+      background: var(--red, #ff6b6b);
+      border: none;
+    }
   }
 }
 .product__info {
@@ -161,5 +178,272 @@
     line-height: normal;
     gap: 15px;
     margin-top: 25px;
+  }
+}
+.ishlab__chiqish__title {
+  text-align: center;
+  color: var(--title-color, #01384d);
+  text-align: center;
+  font-family: Raleway;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 138px;
+  margin-bottom: 81px;
+}
+.ishlab__chiqish {
+  display: flex;
+  .ishlab__chiqish__card {
+    position: relative;
+    .subtitle {
+      color: var(--title-color, #01384d);
+      text-align: center;
+      font-family: Raleway;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin-bottom: 25px;
+    }
+    .Pleyer {
+      position: absolute;
+      top: 43%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 60px;
+      height: 60px;
+    }
+    .ishlab__chiqish__paragrif {
+      color: var(--title-color, #01384d);
+      text-align: center;
+      font-family: Open Sans;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 26px;
+      margin-top: 30px;
+    }
+  }
+}
+.Dream__container {
+  padding-top: 140px;
+}
+.Dream {
+  display: flex;
+  justify-content: space-between;
+  .Dream__card {
+    width: 599px;
+    height: 401px;
+  }
+  .Dream__title {
+    color: var(--title-color, #01384d);
+    font-family: Raleway;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+  }
+  .Dream__paragraf {
+    color: var(--title-color, #01384d);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+  }
+  .Dream__list {
+    border-radius: 8px;
+    border: 2px solid var(--title-color, #01384d);
+    background: #eabf9f;
+    padding: 24px 50px;
+    .list__item {
+      list-style: disc;
+    }
+  }
+  .img__card {
+    position: relative;
+    .player76 {
+      position: absolute;
+      width: 76px;
+      height: 76px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .img__komnata {
+      width: 625px;
+      height: 401px;
+    }
+  }
+}
+.Dream2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+
+  .img__kuxniya {
+    width: 625px;
+    height: 401px;
+  }
+  .Dream__card2 {
+    width: 568px;
+    .Dream__title2 {
+      color: var(--title-color, #01384d);
+      font-family: Raleway;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 26px;
+    }
+    .Dream__list2 {
+      border-radius: 8px;
+      border: 2px solid var(--title-color, #01384d);
+      background: #eabf9f;
+      padding: 16px 55px 28px 55px;
+      .list__item2 {
+        color: var(--title-color, #01384d);
+        font-family: Raleway;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 14px;
+      }
+    }
+    .Dream__paragraf2 {
+      color: var(--title-color, #01384d);
+      font-family: Raleway;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      margin-top: 30px;
+    }
+  }
+}
+.naga__biz__title {
+  color: var(--title-color, #01384d);
+  text-align: center;
+  font-family: Raleway;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 120px;
+  margin-bottom: 63px;
+}
+.nega__biz {
+  display: flex;
+  justify-content: space-between;
+  gap: 34px;
+  .nagaBiz__card {
+    width: 407px;
+    height: 485px;
+    border-radius: 5px;
+    border: 2px solid var(--title-color, #01384d);
+    background: #fff;
+    img {
+      width: 100%;
+      height: 218px;
+      border-radius: 3px 3px 0px 0px;
+    }
+    h2 {
+      color: var(--title-color, #01384d);
+      text-align: center;
+      font-family: Raleway;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-top: 60px;
+      margin-bottom: 26px;
+    }
+    p {
+      color: var(--title-color, #01384d);
+      text-align: center;
+      font-family: Raleway;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px;
+    }
+    .Yetkazib__berish__paragraf {
+      padding-left: 90px;
+      padding-right: 90px;
+    }
+    .quvvatlash__paragraf {
+      padding-right: 27px;
+      padding-left: 28px;
+    }
+    .Kafolat__paragraf {
+      margin-right: 39px;
+      padding-left: 40px;
+    }
+    .tel {
+      color: var(--title-color, #01384d);
+      display: block;
+      text-align: center;
+      font-family: Raleway;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 25px;
+      text-decoration-line: underline;
+    }
+  }
+}
+.Manzilimiz {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px;
+  .Manzilimiz__card {
+    width: 481px;
+    h1 {
+      color: var(--title-color, #01384d);
+      font-family: Raleway;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-bottom: 50px;
+    }
+    h2 {
+      color: var(--title-color, #01384d);
+      font-family: Raleway;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+    p {
+      color: var(--title-color, #01384d);
+      font-family: Raleway;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+      width: 470px;
+
+    }
+    .geolokatsiya {
+      display: block;
+      width: 360px;
+      height: 60px;
+      border-radius: 5px;
+      border: 2px solid var(--title-color, #01384d);
+      background: #fff;
+      padding: 19px 104px 20px 110px;
+      margin-top: 46px;
+      span {
+        color: var(--title-color, #01384d);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-left: 15px;
+      }
+    }
   }
 }
