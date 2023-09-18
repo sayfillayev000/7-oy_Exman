@@ -1,14 +1,19 @@
-import React from 'react'
-// import { AdminHeader, AdminSection, AdminSideber } from '../../components/layouts/admin'
-const index = () => {
+import { memo } from "react";
+import { Outlet } from "react-router-dom";
+import { AdminHeader, AdminSideber } from "../../components/layouts/admin";
+
+const index = memo(() => {
   return (
     <>
-    <h1>salom</h1>
-    {/* <AdminHeader/>
-    <AdminSideber/>
-    <AdminSection/> */}
+      <div className="admin">
+      <AdminSideber />
+      <div className="admin__right">
+        <AdminHeader />
+        <Outlet/>
+      </div>
+    </div>
     </>
-  )
-}
+  );
+});
 
-export default index
+export default index;

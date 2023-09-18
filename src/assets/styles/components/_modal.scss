@@ -8,7 +8,7 @@
   top: 50%;
   left: 50%;
   border-radius: 10px;
-  //   transform: translate(-50%, -50%);
+  transform: translate(-50%, 0%);
   .chiqish {
     position: absolute;
     right: 0;
@@ -82,7 +82,7 @@
   }
 }
 .modal__section {
-    margin-top: 45px;
+  margin-top: 45px;
   span {
     color: var(--title-color, #01384d);
     font-family: Raleway;
@@ -93,19 +93,91 @@
   }
   select {
     margin-top: 12px;
-   padding-right: 15px;
+    padding-right: 15px;
     width: 360px;
     height: 60px;
     border-radius: 5px;
     border: 2px solid var(--title-color, #01384d);
     background: #fff;
-    option{
-        color: var(--title-color, #01384D);
-        font-family: Raleway;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
+    option {
+      color: var(--title-color, #01384d);
+      font-family: Raleway;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
     }
   }
+}
+.count__title {
+  color: var(--title-color, #01384d);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+.modal__count__label {
+  width: 360px;
+  height: 60px;
+  border-radius: 5px;
+  border: 2px solid var(--title-color, #01384d);
+  border-radius: 5px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+
+  .decriment {
+    width: 90px;
+    text-align: center;
+    display: block;
+    border: none;
+    border-right: 2px solid var(--title-color, #01384d);
+    color: var(--title-color, #01384d);
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .increment {
+    width: 90px;
+    text-align: center;
+    display: block;
+    border: none;
+    border-left: 2px solid var(--title-color, #01384d);
+    color: var(--title-color, #01384d);
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .modal__count {
+    color: var(--title-color, #01384d);
+    font-family: Raleway;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+.modal__submit {
+  width: 360px;
+  height: 60px;
+  border-radius: 5px;
+  background: var(--title-color, #01384d);
+  color: #fff;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 50px;
 }

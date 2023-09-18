@@ -4,11 +4,12 @@ import { Logo, Photo } from "../../../assets/images/svg";
 import { Chiqish } from "../../../assets/react-icons";
 const index = memo(() => {
   const [modal, setModal] = useState(false);
+  const [count, setCount] = useState(1);
   return (
     <header className="header">
       {modal ? (
         <div className="buyurtma__modali">
-          <Chiqish className="chiqish" />
+          <Chiqish onClick={() => setModal(false)} className="chiqish" />
           <h1>Buyurtma qilish</h1>
           <form className="madal__form">
             <label className="modal__labal" htmlFor="Ismingizni">
@@ -30,15 +31,31 @@ const index = memo(() => {
                 <option value="">Ortopedik shifobaxsh matras</option>
               </select>
             </label>
-            <label htmlFor="">
-              <button>-</button>
-              <span>count</span>
-              <button>+</button>
+              <h3 className="count__title">Miqdorni tanlang</h3>
+            <label className="modal__count__label">
+                <button
+                  type="button"
+                  onClick={() => setCount(count > 0 ? count - 1 : 0)}
+                  className="decriment"
+                >
+                  -
+                </button>
+                <span className="modal__count">{count}</span>
+                <button
+                  type="button"
+                  onClick={() => setCount(count + 1)}
+                  className="increment"
+                >
+                  +
+                </button>
             </label>
+            <button className="modal__submit">
+            Yuborish
+            </button>
           </form>
         </div>
       ) : (
-        "avsus"
+        ''
       )}
 
       <div className="container header__container">

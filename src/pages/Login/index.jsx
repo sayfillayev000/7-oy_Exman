@@ -1,6 +1,7 @@
 import React, { memo, useRef } from "react";
 import { Parol, User } from "../../assets/react-icons";
 import { Button } from "../../components/fields";
+import { Link } from "react-router-dom";
 
 const index = memo(() => {
   const loginValue = useRef("");
@@ -22,9 +23,9 @@ const index = memo(() => {
           <Parol />
           <input ref={parolValue} type="password" id="" placeholder="Parol" />
         </label>
-        <Button className="login__submit" type="submit">
+        <Link to="/admin" onClick={() => null} className="login__submit" type="submit">
           Kirish
-        </Button>
+        </Link>
       </form>
     </div>
   );

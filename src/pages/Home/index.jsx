@@ -1,13 +1,13 @@
 import React, { memo } from "react";
-import { Header } from "../../components/layouts";
+import { Footer, Header } from "../../components/layouts";
 import { Hero, Product } from "../../components/cards";
 
 const index = memo(() => {
   return (
     <>
-    <Hero/>
-    <Product/>
-    </> 
+      <Hero />
+      <Product />
+    </>
   );
 });
 

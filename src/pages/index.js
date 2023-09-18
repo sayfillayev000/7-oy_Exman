@@ -1,4 +1,5 @@
 import Admin from './Admin';
 import Error from './Error';
 import Home from './Home';
-export {Admin, Error, Home};
+import NotFound from './NotFound';
+export {Admin, Error, Home, NotFound};
